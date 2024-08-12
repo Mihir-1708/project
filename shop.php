@@ -64,7 +64,7 @@
 	  <article>
 
 	<section class="section hero" id="home" aria-label="hero" data-section>
-        <div class="container">
+        <div class="conta">
 			
               <div class="hero-card has-bg-image" style="background-image: url('./assets/images/04.jpg')">
 				<br><br><br><br><br><br><br>
@@ -75,7 +75,7 @@
   <main>
 
       <section class="section shop" id="shop" aria-label="shop" data-section>
-        <div class="container">
+        <div class="conta">
 			
           <div class="title-wrapper">
             <h2 class="h2 section-title">All Products</h2>
@@ -92,18 +92,18 @@
 
                   <span class="badge" aria-label="20% off">-20%</span>
 
-                  <div class="card-actions">
+                    <div class="card-actions">
 
-                    <button class="action-btn" aria-label="add to cart">
-                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    <button class="action-b" aria-label="add to cart">
+                       <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                     </button>
 
-                    <button class="action-btn" aria-label="add to whishlist">
-                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <button class="action-b" aria-label="add to whishlist">
+                      <i class="fa fa-heart-o" style="font-size:23px;"></i>
                     </button>
 
-                    <button class="action-btn" aria-label="compare">
-                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    <button class="action-b" aria-label="compare">
+                       <i class="fa fa-credit-card" aria-hidden="true"></i>
                     </button>
 
                   </div>
@@ -149,15 +149,15 @@
 
                   <div class="card-actions">
 
-                    <button class="action-btn" aria-label="add to cart">
+                    <button class="action-b" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="add to whishlist">
+                    <button class="action-b" aria-label="add to whishlist">
                       <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="compare">
+                    <button class="action-b" aria-label="compare">
                       <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
                     </button>
 
@@ -202,15 +202,15 @@
 
                   <div class="card-actions">
 
-                    <button class="action-btn" aria-label="add to cart">
+                    <button class="action-b" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="add to whishlist">
+                    <button class="action-b" aria-label="add to whishlist">
                       <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="compare">
+                    <button class="action-b" aria-label="compare">
                       <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
                     </button>
 
@@ -255,15 +255,15 @@
 
                   <div class="card-actions">
 
-                    <button class="action-btn" aria-label="add to cart">
+                    <button class="action-b" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="add to whishlist">
+                    <button class="action-b" aria-label="add to whishlist">
                       <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="compare">
+                    <button class="action-b" aria-label="compare">
                       <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
                     </button>
 
@@ -310,15 +310,15 @@
 
                   <div class="card-actions">
 
-                    <button class="action-btn" aria-label="add to cart">
+                    <button class="action-b" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="add to whishlist">
+                    <button class="action-b" aria-label="add to whishlist">
                       <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="compare">
+                    <button class="action-b" aria-label="compare">
                       <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
                     </button>
 
@@ -363,7 +363,7 @@
       
 	  
       <section class="section-special bg-fixed section offer" style="background-image: url(./assets/images/2.jpg);">
-        <div class="container">
+        <div class="conta">
           <div class="offer-content">
 			<br><br><br>
             <p class="offer-subtitle" >
@@ -385,7 +385,7 @@
        
 		
       <section class="section shop" id="shop" aria-label="shop" data-section>
-        <div class="container">
+        <div class="conta">
           <ul class="has-scrollbar">
 
             <li class="scrollbar-item">
@@ -399,15 +399,15 @@
 
                   <div class="card-actions">
 
-                    <button class="action-btn" aria-label="add to cart">
+                    <button class="action-b" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="add to whishlist">
+                    <button class="action-b" aria-label="add to whishlist">
                       <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="compare">
+                    <button class="action-b" aria-label="compare">
                       <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
                     </button>
 
@@ -454,15 +454,15 @@
 
                   <div class="card-actions">
 
-                    <button class="action-btn" aria-label="add to cart">
+                    <button class="action-b" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="add to whishlist">
+                    <button class="action-b" aria-label="add to whishlist">
                       <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="compare">
+                    <button class="action-b" aria-label="compare">
                       <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
                     </button>
 
@@ -507,15 +507,15 @@
 
                   <div class="card-actions">
 
-                    <button class="action-btn" aria-label="add to cart">
+                    <button class="action-b" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="add to whishlist">
+                    <button class="action-b" aria-label="add to whishlist">
                       <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="compare">
+                    <button class="action-b" aria-label="compare">
                       <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
                     </button>
 
@@ -560,15 +560,15 @@
 
                   <div class="card-actions">
 
-                    <button class="action-btn" aria-label="add to cart">
+                    <button class="action-b" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="add to whishlist">
+                    <button class="action-b" aria-label="add to whishlist">
                       <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="compare">
+                    <button class="action-b" aria-label="compare">
                       <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
                     </button>
 
@@ -615,15 +615,15 @@
 
                   <div class="card-actions">
 
-                    <button class="action-btn" aria-label="add to cart">
+                    <button class="action-b" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="add to whishlist">
+                    <button class="action-b" aria-label="add to whishlist">
                       <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="compare">
+                    <button class="action-b" aria-label="compare">
                       <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
                     </button>
 
@@ -668,7 +668,7 @@
 
 		
       <section class="section shop" id="shop" aria-label="shop" data-section>
-        <div class="container">
+        <div class="conta">
           <ul class="has-scrollbar">
 
             <li class="scrollbar-item">
@@ -682,15 +682,15 @@
 
                   <div class="card-actions">
 
-                    <button class="action-btn" aria-label="add to cart">
+                    <button class="action-b" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="add to whishlist">
+                    <button class="action-b" aria-label="add to whishlist">
                       <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="compare">
+                    <button class="action-b" aria-label="compare">
                       <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
                     </button>
 
@@ -737,15 +737,15 @@
 
                   <div class="card-actions">
 
-                    <button class="action-btn" aria-label="add to cart">
+                    <button class="action-b" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="add to whishlist">
+                    <button class="action-b" aria-label="add to whishlist">
                       <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="compare">
+                    <button class="action-b" aria-label="compare">
                       <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
                     </button>
 
@@ -790,15 +790,15 @@
 
                   <div class="card-actions">
 
-                    <button class="action-btn" aria-label="add to cart">
+                    <button class="action-b" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="add to whishlist">
+                    <button class="action-b" aria-label="add to whishlist">
                       <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="compare">
+                    <button class="action-b" aria-label="compare">
                       <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
                     </button>
 
@@ -843,15 +843,15 @@
 
                   <div class="card-actions">
 
-                    <button class="action-btn" aria-label="add to cart">
+                    <button class="action-b" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="add to whishlist">
+                    <button class="action-b" aria-label="add to whishlist">
                       <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="compare">
+                    <button class="action-b" aria-label="compare">
                       <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
                     </button>
 
@@ -898,15 +898,15 @@
 
                   <div class="card-actions">
 
-                    <button class="action-btn" aria-label="add to cart">
+                    <button class="action-b" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="add to whishlist">
+                    <button class="action-b" aria-label="add to whishlist">
                       <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
                     </button>
 
-                    <button class="action-btn" aria-label="compare">
+                    <button class="action-b" aria-label="compare">
                       <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
                     </button>
 
@@ -962,7 +962,7 @@
         - #BACK TO TOP
   -->
 
-  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+  <a href="#top" class="back-top-b" aria-label="back to top" data-back-top-b>
     <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
   </a>
 

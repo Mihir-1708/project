@@ -9,14 +9,14 @@
   <!-- 
     - favicon
   -->
-	<link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-
+	<link rel="shortcut icon" href="./favicon.svg">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
   <!-- 
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
   <!-- 
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  
     - google font link
   -->
   <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -24,72 +24,50 @@
   <!-- 
     - preload images
   -->
-  <link rel="preload" as="image" href="./assets/images/logo.png">
-  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
  
-	<style>
-	   .section-special {
-			margin: 100px 0 250px;
-		}
-
-		.bg-fixed {
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
-			background-attachment: fixed;
-		}
-		
-				
-		.bg-main {
-			background-color: var(--body-bg);
-		}
-
-		.special-product-img {
-			width: 100%;
-			padding-top: 100%;
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
-			margin-bottom: -250px;
-		}
-
-		.special-product {
-			padding: 0 80px;
-		}
-
-		.special-product > * {
-			margin-top: 30px;
-		}
-
-		.special-product > .special-product-img {
-			margin-top: 80px;
-		}
-
-		.special-product > span {
-			text-transform: uppercase;
-		}
-
-		.special-product > p {
-			color: var(--text-gray);
-		}
-
-		.special-product > h2 {
-			font-size: 3rem;
-			text-transform: uppercase;
-		}
+	<link rel="stylesheet" href="style.css">
 								
 </style>
+<script>
+			// Set the date we're counting down to
+			var countDownDate = new Date("Jan 5, 2030 15:37:25").getTime();
 
+			// Update the count down every 1 second
+			var x = setInterval(function() {
+
+			  // Get today's date and time
+			  var now = new Date().getTime();
+
+			  // Find the distance between now and the count down date
+			  var distance = countDownDate - now;
+
+			  // Time calculations for days, hours, minutes and seconds
+			  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+			  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+			  // Display the result in the element with id="demo"
+			  document.getElementById("demo").innerHTML = hours + "h "
+			  + minutes + "m " + seconds + "s ";
+
+			  // If the count down is finished, write some text
+			  if (distance < 0) {
+				clearInterval(x);
+				document.getElementById("demo").innerHTML = "EXPIRED";
+			  }
+			}, 1000);
+			</script>
  
 </head>
 
 
 
-<header class="header">
-    <div class="header-top" data-header>
-      <div class="container">
+<header class="h">
+    <div class="h-top" data-header>
+      <div class="conta">
 
-        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <button class="nav-open-b" aria-label="open menu" data-nav-toggler>
           <span class="line line-1"></span>
           <span class="line line-2"></span>
           <span class="line line-3"></span>
@@ -97,7 +75,6 @@
 
         <div class="input-wrapper">
           <input type="search" name="search" placeholder="Search product" class="search-field">
-
           <button class="search-submit" aria-label="search">
             <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
           </button>
@@ -107,46 +84,50 @@
           <img src="./assets/images/logo.png" width="179" height="26" alt="Glowing">
         </a>
 
-        <div class="header-actions">
-
-          <button class="header-action-btn" aria-label="user">
+        <div class="h-actions">
+		
+		<a href='wish.php'>
+          <button class="h-action-b" aria-label="favourite item">
+		  <i class="fa fa-heart-o" style="font-size:26px;"></i>
+				<span class="b-badge">0</span> 
+          </button>
+			</a>
+			
+		<a href='add.php'>
+          <button class="h-action-b" aria-label="cart item">
+             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+				<span class="b-badge">0</span> 
+          </button>
+		  </a>
+		  
+		<a href="log.php">	
+          <button class="h-action-b" aria-label="user">
             <ion-icon name="person-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
           </button>
-
-          <!--<button class="header-action-btn" aria-label="favourite item">
-            <ion-icon name="star-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
-				<span class="btn-badge">0</span> 
-           
-          </button>-->
-
-          <button class="header-action-btn" aria-label="cart item">
-            <ion-icon name="bag-handle-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
-				<!--<span class="btn-badge">0</span> -->
-          </button>
-
+		  </a>
         </div>
 
-        <nav class="navbar">
-          <ul class="navbar-list">
+        <nav class="n">
+          <ul class="n-list">
 
             <li>
-              <a href="index.php" class="navbar-link has-after">Home</a>
+              <a href="index.php" class="n-l ha">Home</a>
             </li>
 
             <li>
-              <a href="shop.php" class="navbar-link has-after">Shop all</a>
+              <a href="shop.php" class="n-l ha">Shop all</a>
             </li>
 
             <li>
-              <a href="skin.php" class="navbar-link has-after">Skin care</a>
+              <a href="skin.php" class="n-l ha">Skin care</a>
             </li>
 
             <li>
-              <a href="#offer" class="navbar-link has-after">Offer</a>
+              <a href="brand.php" class="n-l ha">Brands</a>
             </li>
 
             <li>
-              <a href="#blog" class="navbar-link has-after">Blog</a>
+              <a href="blog.php" class="n-l ha">Blog</a>
             </li>
 
           </ul>
@@ -159,42 +140,42 @@
 
 
   <!-- 
-    - #MOBILE NAVBAR
+    - #MOBILE n
   -->
 
   <div class="sidebar">
-    <div class="mobile-navbar" data-navbar>
+    <div class="mobile-n" data-n>
 
       <div class="wrapper">
         <a href="#" class="logo">
           <img src="./assets/images/logo.png" width="179" height="26" alt="Glowing">
         </a>
 
-        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+        <button class="nav-close-b" aria-label="close menu" data-nav-toggler>
           <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
         </button>
       </div>
 
-      <ul class="navbar-list">
+      <ul class="n-list">
 
         <li>
-          <a href="index.php" class="navbar-link" data-nav-link>Home</a>
+          <a href="index.php" class="n-l" data-nav-link>Home</a>
         </li>
 		
 		<li>
-              <a href="shop.php" class="navbar-link has-after">Shop all</a>
+              <a href="shop.php" class="n-l ha">Shop all</a>
          </li>
 	
         <li>
-          <a href="skin.php" class="navbar-link" data-nav-link>Skin care</a>
+          <a href="skin.php" class="n-l" data-nav-link>Skin care</a>
         </li>
 
         <li>
-          <a href="#offer" class="navbar-link" data-nav-link>Offer</a>
+          <a href="brand.php" class="n-l" data-nav-link>Brands</a>
         </li>
 
         <li>
-          <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          <a href="blog.php" class="n-l" data-nav-link>Blog</a>
         </li>
 
       </ul>

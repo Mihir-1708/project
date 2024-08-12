@@ -1,84 +1,84 @@
 
-  <footer class="footer" data-section>
-    <div class="container">
+  <footer class="f" data-section>
+    <div class="conta">
 
-      <div class="footer-top">
+      <div class="f-top">
 
-        <ul class="footer-list">
+        <ul class="f-list">
 
           <li>
-            <p class="footer-list-title">Company</p>
+            <p class="f-list-title">Company</p>
           </li>
 
           <li>
-            <p class="footer-list-text">
-              Find a location nearest you. See <a href="#" class="link">Our Stores</a>
+            <p class="f-list-text">
+              Find a location nearest you. See <a href="#" class="l">Our Stores</a>
             </p>
           </li>
 
           <li>
-            <p class="footer-list-text bold">+391 (0)35 2568 4593</p>
+            <p class="f-list-text bold">+391 (0)35 2568 4593</p>
           </li>
 
           <li>
-            <p class="footer-list-text">hello@domain.com</p>
+            <p class="f-list-text">hello@domain.com</p>
           </li>
 
         </ul>
 
-        <ul class="footer-list">
+        <ul class="f-list">
 
           <li>
-            <p class="footer-list-title">Useful links</p>
+            <p class="f-list-title">Useful ls</p>
           </li>
 
           <li>
-            <a href="#" class="footer-link">New Products</a>
+            <a href="#" class="f-l">New Products</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Best Sellers</a>
+            <a href="#" class="f-l">Best Sellers</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Bundle & Save</a>
+            <a href="#" class="f-l">Bundle & Save</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Online Gift Card</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Infomation</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Start a Return</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Contact Us</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Shipping FAQ</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Terms & Conditions</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Privacy Policy</a>
+            <a href="#" class="f-l">Online Gift Card</a>
           </li>
 
         </ul>
 
-        <div class="footer-list">
+        <ul class="f-list">
+
+          <li>
+            <p class="f-list-title">Infomation</p>
+          </li>
+
+          <li>
+            <a href="#" class="f-l">Start a Return</a>
+          </li>
+
+          <li>
+            <a href="#" class="f-l">Contact Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="f-l">Shipping FAQ</a>
+          </li>
+
+          <li>
+            <a href="#" class="f-l">Terms & Conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="f-l">Privacy Policy</a>
+          </li>
+
+        </ul>
+
+        <div class="f-list">
 
           <p class="newsletter-title">Good emails.</p>
 
@@ -90,14 +90,14 @@
             <input type="email" name="email_address" placeholder="Enter your email address" required
               class="email-field">
 
-            <button type="submit" class="btn btn-primary">Subscribe</button>
+            <button type="submit" class="b b-primary">Subscribe</button>
           </form>
 
         </div>
 
       </div>
 
-      <div class="footer-bottom">
+      <div class="f-bottom">
 
         <div class="wrapper">
           <p class="copyright">
@@ -107,25 +107,25 @@
           <ul class="social-list">
 
             <li>
-              <a href="#" class="social-link">
+              <a href="#" class="social-l">
                 <ion-icon name="logo-twitter"></ion-icon>
               </a>
             </li>
 
             <li>
-              <a href="#" class="social-link">
+              <a href="#" class="social-l">
                 <ion-icon name="logo-facebook"></ion-icon>
               </a>
             </li>
 
             <li>
-              <a href="#" class="social-link">
+              <a href="#" class="social-l">
                 <ion-icon name="logo-instagram"></ion-icon>
               </a>
             </li>
 
             <li>
-              <a href="#" class="social-link">
+              <a href="#" class="social-l">
                 <ion-icon name="logo-youtube"></ion-icon>
               </a>
             </li>
@@ -148,7 +148,7 @@
         - #BACK TO TOP
   -->
 
-  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+  <a href="#top" class="back-top-b" aria-label="back to top" data-back-top-b>
     <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
   </a>
 
@@ -157,12 +157,12 @@
 
 
   <!-- 
-    - custom js link
+    - custom js l
   -->
-  <script src="./assets/js/script.js" defer></script>
+  <script src="./assets/js/script.js"></script>
 
   <!-- 
-    - ionicon link
+    - ionicon l
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

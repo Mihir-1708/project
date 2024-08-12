@@ -44,37 +44,37 @@ addEventOnElem(navbarLinks, "click", closeNavbar);
 
 
 /**
- * header sticky & back top btn active
+ * h sticky & back top btn active
  */
 
-const header = document.querySelector("[data-header]");
+const h = document.querySelector("[data-h]");
 const backTopBtn = document.querySelector("[data-back-top-btn]");
 
-const headerActive = function () {
+const hActive = function () {
   if (window.scrollY > 150) {
-    header.classList.add("active");
+    h.classList.add("active");
     backTopBtn.classList.add("active");
   } else {
-    header.classList.remove("active");
+    h.classList.remove("active");
     backTopBtn.classList.remove("active");
   }
 }
 
-addEventOnElem(window, "scroll", headerActive);
+addEventOnElem(window, "scroll", hActive);
 
 let lastScrolledPos = 0;
 
-const headerSticky = function () {
+const hSticky = function () {
   if (lastScrolledPos >= window.scrollY) {
-    header.classList.remove("header-hide");
+    h.classList.remove("h-hide");
   } else {
-    header.classList.add("header-hide");
+    h.classList.add("h-hide");
   }
 
   lastScrolledPos = window.scrollY;
 }
 
-addEventOnElem(window, "scroll", headerSticky);
+addEventOnElem(window, "scroll", hSticky);
 
 
 
