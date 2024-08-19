@@ -1,3 +1,16 @@
+<?php
+	if(isset($_POST['signupbtn']))
+	{
+		require_once "connection.php";
+		$insertOneResult = $user_tbl->insertOne([  
+			'uname' => $_POST['username'],  
+			'email' =>  $_POST['useremail'],
+			'phone_no' => $_POST['userphno'],  
+			'password' => $_POST['pwd'],    
+		]);  
+	}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,11 +30,10 @@
 			}
 			.btn1
 			{
-				color: #8a6d3b;
-				border-color: #8a6d3b;
-				/* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
-				box-shadow:  0 4px 6px rgba(138, 109, 59, 0.1),  /* Light shadow for subtle depth */
-					0 10px 20px rgba(138, 109, 59, 0.15), /* Medium shadow for more depth */
+				border-color: black;
+			
+				box-shadow:  0 4px 6px rgba(138, 109, 59, 0.1), 
+					0 10px 20px rgba(138, 109, 59, 0.15), 
 					0 20px 40px rgba(138, 109, 59, 0.2); 
 			}
 			.remember-me {
@@ -30,14 +42,13 @@
 				margin: 15px 0;
 				font-size: 14px;
 			}
-
 			.remember-me input[type="checkbox"] {
 				margin-right: 8px;
-				accent-color: #8a6d3b;
+				accent-color:black;
 			}
 
 			.remember-me label {
-				color: #8a6d3b;
+				color:black;
 				font-size: 14px;
 				cursor: pointer;
 				min-inline-size: fit-content;
@@ -54,25 +65,26 @@
 
 		<div class="container" id="container">
 			<div class="form-container sign-up-container">
-				<form method="POST" id="VendorForm">
-					<h1 style="color:#8a6d3b; font-weight:800; margin-top:35px">SignUp</h1>
-					<!--<div class="social-container">
-					</div>-->
+				<form method="POST" id="signupForm">
+				<br><br>
+					<h1 style="color:black; font-weight:800; margin-top:35px">SignUp</h1>
 					<input type="text" name="username" placeholder="UserName" id="username" required autocomplete="off"/>
 					<input type="email" name="useremail" placeholder="Email" id="email" required autocomplete="off"/>
 					<input type="text" name="userphno" placeholder="Phone No" id="phno" required autocomplete="off"/>
 					<input type="password" name="pwd" placeholder="Password" id="password" required/>
 					<input type="password" name="cpwd" placeholder="Confirm Password" id="cpassword" required/>
-					<input type="hidden" name="loginID" value="1" required/>
-					<a href="forgot.php">Forgot your password?</a>
-					<button type="submit">Register</button> <br><span><a href="index.php"><u>Back to home</u></a></span>
-					<h5 class="page-header" style="display:none;"><center>User Name or Password is Invalid..</center></h5>
+					<div class="remember-me">	
+						<input type="checkbox" id="terms&conditions" name="terms&conditions"/>
+						<label for="terms&conditions">I Agree To All Your Terms & Conditions</label>
+					</div>
+					<button type="submit" name="signupbtn">Register</button> <br><span><a href="index.php"><u>Back to home</u></a></span>
 					<br><br><br>
 				</form>
 			</div>
 			<div class="form-container sign-in-container">
 				<form method="POST" id="CustomerForm">
-					<h1 style="color:#8a6d3b; font-weight:800; margin-top:35px">LogIn</h1>
+					<h1 style="color:black; font-weight:800; margin-top:35px">LogIn</h1>
+					
 					<div class="social-container">
 					</div>
 					
@@ -91,15 +103,17 @@
 				<div class="overlay">
 					<div class="overlay-panel overlay-left">
 						<h1>Welcome customer!</h1>
-						<p style="color:#8a6d3b ;font-weight: 600;">To keep connected with us please sign up with your personal info</p>
-						<p style="color:#8a6d3b ;font-weight: 600;">Already have an account!</p>
+						<p style="color:black ;font-weight: 600;">To keep connected with us please sign up with your personal info</p>
+						<p style="color:black ;font-weight: 600;">Already have an account!</p>
+						
 						<button class="ghost btn1" id="signIn">LogIn</button>
 					</div>
 					<div class="overlay-panel overlay-right" >
 						<h1>Hello, Customer!</h1>
-						<p style="color:#8a6d3b ;font-weight: 600;">Enter your personal details and start your journey with us</p>
-						<p style="color:#8a6d3b ;font-weight: 600;">Dont have an Account!</p>
-						<button class="ghost btn1" id="signUp" style="color:#8a6d3b">sign up</button>
+						
+						<p style="color:black ;font-weight: 600;">Enter your personal details and start your journey with us</p>
+						<p style="color:black ;font-weight: 600;">Dont have an Account!</p>
+						<button class="ghost btn1" id="signUp">sign up</button>
 					</div>
 				</div>
 			</div>

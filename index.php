@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 <?php
 	include 'header.php';
 ?>
@@ -9,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Glowing - Reveal The Beauty of Skin</title>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- 
     - favicon
   -->
@@ -30,14 +29,6 @@
   <link rel="preload" as="image" href="./assets/images/logo.png">
  
 </head>
-
-
-
-<body id="top">
-
-  <!-- 
-    - #HEADER
-  -->
 
   
   <main>
@@ -978,11 +969,6 @@
        
 	</article>
   </main>
-	
 	<?php  
 		 include 'footer.php';
 	?>
-
-</body>
-
-</html>
